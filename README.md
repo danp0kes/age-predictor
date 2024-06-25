@@ -1,7 +1,5 @@
 # Predicting Ages Through Portrait Photos
 
-Try the model out for yourself [here](https://age-predictor.onrender.com)
-
 ## Introduction
 
 The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to underage customers. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. The full project can be found [here](good-seed.ipynb).
@@ -14,14 +12,20 @@ Develop a model that identifies the age of a customer based on their portrait ph
 
 The model:
 
-- Eliminates the need to manually identify the age of one-third of all customers that purchase alcohol.
-- Predicts ages within 6.78 years off person's actual age on average.
+- Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol.
+
+![predicted-ages](pics/predicted_ages.png)
+
+- Predicts ages within 6.1 years off person's actual age on average
+
+![difference](pics/difference.png)
+
 - Produces an F1 score that is better than constant at 0.89 with precision at 0.82
 
 
-## Assumptions: 
-- The distribution of the age of customers who purchase alcohol is similar to the distribition of the age of customers generally.
-- 35% of all customers are aged 53 and above (according to statistica).
+## Data
+
+7.5k photos with accompanying ages are saved in the `datasets/faces/` folder.
 
 ## Process
 
@@ -43,11 +47,9 @@ The model:
     - How can it be used to save resources?
     - For fun: how old do I, my fiance, and my dogs look? 
 
-
-## Data
-
-7.5k photos with accompanying ages are saved in the `datasets/faces/` folder.
-
+## Assumptions: 
+- The distribution of the age of customers who purchase alcohol is similar to the distribition of the age of customers generally.
+- The median age of customers is 44 years, according to this [article](https://adplanetads.com/spotlight/grocery-shopper-demographics-retail-dooh/#:~:text=Age%3A%20The%20average%20age%20of,their%20own%20ways%20of%20shopping.).
 
 ## Alternative Uses
 
