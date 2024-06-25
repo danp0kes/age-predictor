@@ -54,7 +54,7 @@ if uploaded_file is not None:
         st.sidebar.markdown(f'<p style="color:red;">You are {drinking_age - actual_age} years away from the legal drinking age.</p>', unsafe_allow_html=True)
         
     elif actual_age >= drinking_age:
-        st.sidebar.markdown(f'<p style="color:green;">You are legally allowed to drink age.</p>', unsafe_allow_html=True)
+        st.sidebar.markdown(f'<p style="color:green;">You are legally allowed to drink.</p>', unsafe_allow_html=True)
         
 # Display the bottom of the page
 st.write('---')
