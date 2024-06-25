@@ -14,7 +14,7 @@ The model:
 
 - Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol.
 
-![predicted-ages](pics/predicted_ages.png)
+![predicted-ages](pics/predicted_ages1.png)
 
 - Predicts ages within 6.1 years off person's actual age on average
 
