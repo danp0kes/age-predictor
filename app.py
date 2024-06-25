@@ -36,9 +36,9 @@ if uploaded_file is not None:
 
     # Display the difference with font colors in the sidebar
     if actual_age > age:
-        st.sidebar.markdown(f'<p style="color:green;">You are {actual_age - age} years younger than you look.</p>', unsafe_allow_html=True)
+        st.sidebar.markdown(f'<p style="color:green;">You look {actual_age - age} years younger than you are.</p>', unsafe_allow_html=True)
     elif actual_age < age:
-        st.sidebar.markdown(f'<p style="color:red;">You are {age - actual_age} years older than you look.</p>', unsafe_allow_html=True)
+        st.sidebar.markdown(f'<p style="color:red;">You look {age - actual_age} years older than you are.</p>', unsafe_allow_html=True)
     else:
         st.sidebar.write('Your predicted age matches your actual age.')
 
@@ -49,6 +49,12 @@ if uploaded_file is not None:
         st.sidebar.markdown(f'<p style="color:red;">You look like you are {abs(age - drinking_age)} years younger than the legal drinking age.</p>', unsafe_allow_html=True)
     else:
         st.sidebar.write('Your predicted age matches the legal drinking age.')
+        
+    if actual_age < drinking_age:
+        st.sidebar.markdown(f'<p style="color:red;">You are {drinking_age - actual_age} years away from the legal drinking age.</p>', unsafe_allow_html=True)
+        
+    elif actual_age >= drinking_age:
+        st.sidebar.markdown(f'<p style="color:green;">You are legally allowed to drink age.</p>', unsafe_allow_html=True)
         
 # Display the bottom of the page
 st.write('---')
