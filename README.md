@@ -12,7 +12,7 @@ Develop a model that identifies the age of a customer based on their portrait ph
 
 The model:
 
-- Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol.
+- Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol, if results are replicated.
 
 ![predicted-ages](pics/predicted_ages1.png)
 

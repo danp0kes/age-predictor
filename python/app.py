@@ -6,7 +6,7 @@ import numpy as np
 st.title('Predicting Your Age')
 
 # What is your actual age?
-actual_age = st.number_input('What is your actual age?', min_value=0, max_value=100, value=30)
+actual_age = st.number_input('What is your actual age?', min_value=0, max_value=100, value=21)
 
 # What is your country's legal drinking age?
 drinking_age = st.number_input('What is the legal drinking age?', min_value=0, max_value=100, value=21)
