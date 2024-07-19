@@ -1,18 +1,22 @@
-# Predicting Ages Through Portrait Photos
+# Predicting Ages Through Facial Photos
+
+## Run Application
+
+1. Ensure [requirements](requirements.txt) are met
+2. Save model as `python/models/age_prediction_model.h5`
+3. Run in CLI `streamlit run python/app.py`
 
 ## Introduction
 
-The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to underage customers. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. The full project can be found [here](python/good-seed.ipynb).
+A supermarket chain would like to explore whether data science can help them adhere to alcohol laws by making sure they do not sell alcohol to underage customers. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. Check out the [full notebook](python/good-seed.ipynb) and the [demo](https://www.loom.com/share/0479696709ec4e639a444299bf855180?sid=61dad59e-d590-471e-9b85-a563637bd5e9).
 
 ## Goal
-
-Develop a model that identifies the age of a customer based on their portrait photo. Attain the lowest mean absolute average. 
+Develop a model that identifies the age of a customer based on their portrait photo. Attain ages with the lowest mean absolute average on the test set, atleast below 8.0. 
 
 ## Key Findings
-
 The model:
 
-- Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol, if results are replicated.
+- Eliminates the need to manually identify the age of over a half of all customers that purchase alcohol (if results are replicated).
 
 ![predicted-ages](pics/predicted_ages1.png)
 
@@ -20,7 +24,7 @@ The model:
 
 ![difference](pics/difference.png)
 
-- Produces an F1 score that is better than constant at 0.89 with precision at 0.82
+- Produces an F1 score that is better than constant models at 0.89 with precision at 0.82
 
 
 ## Data
@@ -45,7 +49,6 @@ The model:
 4. Draw Conclusions
     - How effective is the model?
     - How can it be used to save resources?
-    - For fun: how old do I, my fiance, and my dogs look? 
 
 ## Assumptions: 
 - The distribution of the age of customers who purchase alcohol is similar to the distribition of the age of customers generally.
@@ -57,7 +60,7 @@ This model could also help Good Seed financially by determining product demograp
 
 ### Product Placement
 
-Firstly, Good Seed could identify what products are being bought by each age group. For instance, Good Seed could identify certain products that are bought more by elderly people. As elderly people may require more help accessing products, the store could place these items closer to the front, making it easier for them to purchase items and incentivising shopping at Good Seed over other stores. 
+Firstly, a grocery store could identify what products are being bought by each age group. For instance, they could identify certain products that are bought more by elderly people. As elderly people may require more help accessing products, the store could place these items closer to the front, making it easier for them to purchase items and incentivising shopping at their grocery store over others. 
 
 ### Supplier Marketing
-Secondly, this information could also be useful for suppliers who might want to identify their target audiences. Good Seed could sell this information and charge for specific shelf spacing based on customer preferences.
+Secondly, this information could also be useful for suppliers who might want to identify their target audiences. A grocery could sell this information and charge for specific shelf spacing based on customer preferences.
