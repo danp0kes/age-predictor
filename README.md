@@ -10,8 +10,7 @@
 7. [Alternative Uses](#alternative-uses)
     - [Product Placement](#product-placement)
     - [Supplier Marketing](#supplier-marketing)
-8. [Run Application](#run-application)
-9. [Installation](#installation)
+8. [Installation](#installation)
 
 ## Introduction
 
@@ -88,3 +87,5 @@ This information can also help suppliers identify their target audiences. Stores
     ```sh
     streamlit run python/app.py
     ```
+
+5. Upload your own photos 
