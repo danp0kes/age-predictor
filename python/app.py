@@ -14,7 +14,7 @@ if __name__ == '__main__':
     #drinking_age = st.number_input('What is the legal drinking age?', min_value=0, max_value=100, value=21)
 
     # Load the model
-    model = tf.keras.models.load_model('models/age_prediction_model.h5')
+    model = tf.keras.models.load_model('python/models/age_prediction_model.h5')
 
     # Upload the image
     uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'png'])

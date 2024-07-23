@@ -68,6 +68,12 @@ This information can also help suppliers identify their target audiences. Stores
 
 ## Installation
 
+To try out the model for yourself I created a streamlit application that looks like this:
+
+
+
+Follow these steps to give a go for yourself. 
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-repo/age-prediction-model.g
