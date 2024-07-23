@@ -68,11 +68,11 @@ This information can also help suppliers identify their target audiences. Stores
 
 ## Installation
 
-To try out the model for yourself I created a streamlit application that looks like this:
+To try out the model for yourself I created a streamlit application where you can try out the model for yourself:
 
+![app_screen](pics/app_blank.png)
 
-
-Follow these steps to give a go for yourself. 
+Follow these steps to give a go:
 
 1. Clone the repository:
    ```sh
