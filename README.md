@@ -23,7 +23,7 @@ Develop a model that identifies the age of a customer based on their portrait ph
 
 ## Key Findings
 The model:
-- Eliminates the need to manually identify the age of over half of all customers purchasing alcohol (if results are replicated).
+- Eliminates the need to manually identify the age of over half of all customers purchasing alcohol (if results are replicated and assumptions are correct).
 ![predicted-ages](pics/predicted_ages1.png)
 - Predicts ages within 6.1 years of a person's actual age on average.
 ![difference](pics/difference.png)
@@ -31,7 +31,8 @@ The model:
 
 ## Data
 
-7.5k photos with accompanying ages are saved in the `datasets/faces/` folder.
+7.5k photos with accompanying ages are saved in the `datasets/faces/` folder. A diverse distribution of ages was used to represent those from 1-100 and looks like as follows:
+![age-distr.](pics/age_distributions.png)
 
 ## Process
 
