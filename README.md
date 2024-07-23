@@ -1,4 +1,4 @@
-# Predicting Ages Through Facial Photos
+# Age Prediction Model
 
 ## Introduction
 
