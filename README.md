@@ -66,14 +66,6 @@ Grocery stores could identify which products are bought by each age group. For i
 
 This information can also help suppliers identify their target audiences. Stores could sell this data and charge for specific shelf placements based on customer preferences.
 
-## Run Application
-
-To try out the model, follow these steps:
-
-1. Ensure [requirements](requirements.txt) are met.
-2. Save the model as `python/models/age_prediction_model.h5`.
-3. Run in CLI: `streamlit run python/app.py`.
-
 ## Installation
 
 1. Clone the repository:
