@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Traditionally, the alcohol age verification process often acquires slow and sometimes inaccurate manual checks for identification. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. Check out the [full notebook](python/good-seed.ipynb) and the [demo](https://www.loom.com/share/0479696709ec4e639a444299bf855180?sid=61dad59e-d590-471e-9b85-a563637bd5e9).
+Traditionally, the alcohol age verification process often requires slow and sometimes inaccurate manual checks for identification. As cameras are located by the checkout area, the need for an employee to check a customer's identity may be replaced given the right model. Check out the [full notebook](python/good-seed.ipynb) and the [demo](https://www.loom.com/share/0479696709ec4e639a444299bf855180?sid=61dad59e-d590-471e-9b85-a563637bd5e9).
 
 ## Goal
 Develop a model that identifies the age of a customer based on their portrait photo. Aim for a mean absolute error on the test set below 8.0 years.
