@@ -68,7 +68,7 @@ This information can also help suppliers identify their target audiences. Stores
 
 ## Installation
 
-To try out the model for yourself I created a streamlit application where you can try out the model for yourself:
+To try out the model for yourself I created a streamlit application where you can try it out.
 
 ![app_screen](pics/app_blank.png)
 
