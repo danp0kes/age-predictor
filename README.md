@@ -12,7 +12,6 @@
     - [Supplier Marketing](#supplier-marketing)
 8. [Run Application](#run-application)
 9. [Installation](#installation)
-10. [Quick Start Guide](#quick-start-guide)
 
 ## Introduction
 
