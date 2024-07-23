@@ -78,4 +78,20 @@ To try out the model, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/age-prediction-model.git
+   git clone https://github.com/your-repo/age-prediction-model.g
+   ```
+
+2. Navigate to project directory:
+   ```sh
+    cd age-prediction-model
+    ```
+
+3. Install required packages
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. Run the Streamlit application
+    ```sh
+    streamlit run python/app.py
+    ```
