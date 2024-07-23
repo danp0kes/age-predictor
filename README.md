@@ -31,7 +31,8 @@ The model:
 
 ## Data
 
-7.5k photos with accompanying ages are saved in the `datasets/faces/` folder. A diverse distribution of ages was used to represent those from 1-100 and looks like as follows:
+7.5k photos with accompanying ages was used. A diverse distribution of ages represented those from 1-100. 
+
 ![age-distr.](pics/age_distributions.png)
 
 ## Process
