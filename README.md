@@ -1,5 +1,7 @@
 # Age Prediction Model
 
+![gif](pics/age-predictor.gif)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Goal](#goal)
